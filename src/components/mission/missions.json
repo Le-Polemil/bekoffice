@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_mission_missions",
+  "info": {
+    "displayName": "Missions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

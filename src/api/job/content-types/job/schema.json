@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "missions": {
+      "displayName": "Missions",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "mission.missions"
+    },
+    "company": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "companyDetails": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "dateStart": {
+      "pluginOptions": {},
+      "type": "date"
+    },
+    "dateEnd": {
+      "pluginOptions": {},
+      "type": "date"
+    }
+  }
+}

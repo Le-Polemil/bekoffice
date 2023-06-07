@@ -1,0 +1,31 @@
+{
+  "name": "bekoffice",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.10.6",
+    "@strapi/plugin-i18n": "4.10.6",
+    "@strapi/plugin-users-permissions": "4.10.6",
+    "@strapi/strapi": "4.10.6",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b68072f8-514c-4bc8-8eef-c1e0132ef89f"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

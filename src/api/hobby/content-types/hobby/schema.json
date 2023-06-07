@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hobbies",
+  "info": {
+    "singularName": "hobby",
+    "pluralName": "hobbies",
+    "displayName": "Hobby",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

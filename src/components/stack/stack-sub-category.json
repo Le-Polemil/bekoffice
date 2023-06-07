@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_stack_stack_sub_categories",
+  "info": {
+    "displayName": "StackSubCategory"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "skills": {
+      "displayName": "Skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "stack.skills"
+    }
+  }
+}

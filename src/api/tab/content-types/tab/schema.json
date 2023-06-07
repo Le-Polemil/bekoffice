@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tabs",
+  "info": {
+    "singularName": "tab",
+    "pluralName": "tabs",
+    "displayName": "Tab"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

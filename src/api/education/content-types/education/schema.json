@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "singularName": "education",
+    "pluralName": "educations",
+    "displayName": "Education"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "grade": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "yearStart": {
+      "type": "integer",
+      "required": true,
+      "default": 2015
+    },
+    "yearEnd": {
+      "type": "integer",
+      "required": true,
+      "default": 2015
+    },
+    "school": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}

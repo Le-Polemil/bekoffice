@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stack_categories",
+  "info": {
+    "singularName": "stack-category",
+    "pluralName": "stack-categories",
+    "displayName": "StackCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subCategories": {
+      "displayName": "StackSubCategory",
+      "type": "component",
+      "repeatable": true,
+      "component": "stack.stack-sub-category"
+    }
+  }
+}

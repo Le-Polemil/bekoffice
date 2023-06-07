@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_stack_skills",
+  "info": {
+    "displayName": "Skills"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
