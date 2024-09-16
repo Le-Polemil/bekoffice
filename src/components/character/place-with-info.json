@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_character_place_with_infos",
+  "info": {
+    "displayName": "placeWithType",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "place": {
+      "displayName": "place",
+      "type": "component",
+      "repeatable": false,
+      "component": "character.place"
+    },
+    "info": {
+      "type": "enumeration",
+      "enum": [
+        "born",
+        "hometown",
+        "living",
+        "died"
+      ]
+    }
+  }
+}

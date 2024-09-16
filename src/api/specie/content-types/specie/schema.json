@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "species",
+  "info": {
+    "singularName": "specie",
+    "pluralName": "species",
+    "displayName": "Species"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "names": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specie.name"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_specie_names",
+  "info": {
+    "displayName": "name"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "pronunciation": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    }
+  }
+}

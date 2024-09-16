@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_character_names",
+  "info": {
+    "displayName": "name",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "full": {
+      "type": "string"
+    },
+    "first": {
+      "type": "string"
+    },
+    "last": {
+      "type": "string"
+    }
+  }
+}

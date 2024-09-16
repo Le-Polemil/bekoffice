@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_character_places",
+  "info": {
+    "displayName": "place",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "region": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}
