@@ -4,7 +4,8 @@
   "info": {
     "singularName": "education",
     "pluralName": "educations",
-    "displayName": "Education"
+    "displayName": "Education",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -33,6 +34,9 @@
       "type": "string"
     },
     "city": {
+      "type": "string"
+    },
+    "date": {
       "type": "string"
     }
   }

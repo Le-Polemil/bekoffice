@@ -40,6 +40,12 @@
     "dateEnd": {
       "pluginOptions": {},
       "type": "date"
+    },
+    "date": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
     }
   }
 }

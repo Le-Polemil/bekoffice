@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_skill_skills",
+  "info": {
+    "displayName": "skill",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "skill": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::skill.skill"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

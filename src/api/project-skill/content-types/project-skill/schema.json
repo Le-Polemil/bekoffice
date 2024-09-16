@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tabs",
+  "collectionName": "project_skills",
   "info": {
-    "singularName": "tab",
-    "pluralName": "tabs",
-    "displayName": "Tab",
+    "singularName": "project-skill",
+    "pluralName": "project-skills",
+    "displayName": "ProjectSkill",
     "description": ""
   },
   "options": {
@@ -12,19 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "key": {
+    "skill": {
       "type": "string",
-      "unique": true,
       "required": true
     },
-    "icon": {
+    "link": {
       "type": "string"
-    },
-    "url": {
-      "type": "string"
-    },
-    "order": {
-      "type": "integer"
     }
   }
 }

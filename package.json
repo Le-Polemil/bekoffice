@@ -7,14 +7,14 @@
     "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy": "yarn build && scp -r ./dist/* bekansabo@82.165.0.213:/home/bekansabo/bekoffice"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.10.6",
+    "@strapi/plugin-graphql": "^4.0.5",
     "@strapi/plugin-i18n": "4.10.6",
     "@strapi/plugin-users-permissions": "4.10.6",
-    "@strapi/strapi": "4.10.6",
+    "@strapi/strapi": "^4.0.5",
     "mysql": "2.18.1"
   },
   "author": {
