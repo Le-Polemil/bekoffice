@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discord_users",
+  "info": {
+    "singularName": "discord-user",
+    "pluralName": "discord-users",
+    "displayName": "DiscordUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "discordId": {
+      "type": "string",
+      "unique": true
+    },
+    "wordCounts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::word-count.word-count",
+      "mappedBy": "discordUser"
+    },
+    "name": {
+      "type": "string"
+    },
+    "discordName": {
+      "type": "string"
+    }
+  }
+}

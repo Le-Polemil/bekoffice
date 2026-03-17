@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "word_counts",
+  "info": {
+    "singularName": "word-count",
+    "pluralName": "word-counts",
+    "displayName": "WordCount"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "datetime": {
+      "type": "datetime"
+    },
+    "wordCount": {
+      "type": "integer"
+    },
+    "discordUser": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::discord-user.discord-user",
+      "inversedBy": "wordCounts"
+    }
+  }
+}
