@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_character_behaviors",
+  "info": {
+    "displayName": "behavior",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "posture": {
+      "type": "text"
+    },
+    "gesture": {
+      "type": "text"
+    },
+    "tics": {
+      "type": "text"
+    },
+    "whenAlone": {
+      "type": "text"
+    },
+    "withKnowns": {
+      "type": "text"
+    },
+    "withStrangers": {
+      "type": "text"
+    },
+    "distressSituations": {
+      "type": "text"
+    },
+    "advantageSituations": {
+      "type": "text"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "collectionName": "components_character_information_sheets",
   "info": {
-    "displayName": "InformationSheet",
+    "displayName": "basics",
     "icon": "dashboard",
     "description": ""
   },
@@ -12,19 +12,10 @@
       "repeatable": true,
       "component": "character.names"
     },
-    "species": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::specie.specie"
-    },
-    "birthdate": {
-      "type": "date"
-    },
-    "placesWithType": {
-      "displayName": "placeWithInfo",
+    "physicalEvolution": {
       "type": "component",
       "repeatable": true,
-      "component": "character.place-with-info"
+      "component": "character.based-on-age"
     }
   }
 }

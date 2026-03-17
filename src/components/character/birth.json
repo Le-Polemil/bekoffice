@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_character_births",
+  "info": {
+    "displayName": "birth",
+    "icon": "seed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "parents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::character.character"
+    },
+    "place": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.place"
+    }
+  }
+}

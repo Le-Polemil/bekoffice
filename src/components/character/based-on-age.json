@@ -1,0 +1,79 @@
+{
+  "collectionName": "components_character_based_on_ages",
+  "info": {
+    "displayName": "physicalState",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "age": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "weight": {
+      "type": "decimal"
+    },
+    "eyesColor": {
+      "type": "text"
+    },
+    "hairColor": {
+      "type": "text"
+    },
+    "skinColor": {
+      "type": "text"
+    },
+    "hairLength": {
+      "type": "decimal"
+    },
+    "dominantHand": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "both"
+      ]
+    },
+    "healthInfos": {
+      "type": "text"
+    },
+    "missingLegs": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "both",
+        "other"
+      ]
+    },
+    "missingEyes": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "both",
+        "other"
+      ]
+    },
+    "missingArms": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "both",
+        "other"
+      ]
+    },
+    "eyesDesc": {
+      "type": "text"
+    },
+    "pilosityDesc": {
+      "type": "text"
+    },
+    "moreDesc": {
+      "type": "text"
+    }
+  }
+}

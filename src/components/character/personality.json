@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_character_personalities",
+  "info": {
+    "displayName": "traits",
+    "icon": "connector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainTraits": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trait.trait"
+    },
+    "sociability": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trait.trait"
+    },
+    "qualities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trait.trait"
+    },
+    "flaws": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trait.trait"
+    },
+    "fears": {
+      "type": "text"
+    },
+    "anxiousAbout": {
+      "type": "text"
+    },
+    "angryAbout": {
+      "type": "text"
+    },
+    "amusedBy": {
+      "type": "text"
+    },
+    "isBeliever": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isAtheist": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isSupersitious": {
+      "type": "boolean"
+    },
+    "isPoliticized": {
+      "type": "boolean",
+      "required": false
+    },
+    "other": {
+      "type": "text"
+    }
+  }
+}
