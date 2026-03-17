@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_specie_taniwahs",
+  "info": {
+    "displayName": "Taniwah",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "sharkType": {
+      "type": "string"
+    },
+    "transformationDate": {
+      "type": "date"
+    }
+  }
+}

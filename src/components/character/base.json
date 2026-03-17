@@ -1,8 +1,9 @@
 {
   "collectionName": "components_character_bases",
   "info": {
-    "displayName": "base",
-    "icon": "dashboard"
+    "displayName": "thumbnail",
+    "icon": "dashboard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,11 +11,12 @@
       "type": "string"
     },
     "representations": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
