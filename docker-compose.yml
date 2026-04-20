@@ -6,7 +6,7 @@ services:
     build:
       context: .
     ports:
-      - "1338:1338"
+      - "1337:1337"
     dns:
       - 8.8.8.8
       - 8.8.4.4
