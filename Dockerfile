@@ -1,21 +1,19 @@
-# Utilisez l'image Node.js officielle comme base
-FROM node:16
+FROM node:18
 
-# Définir le répertoire de travail dans le conteneur
+RUN corepack enable && corepack prepare pnpm@latest --activate
+
 WORKDIR /app
 
-# Copier les fichiers package.json et yarn.lock dans le répertoire de travail
-COPY package.json .
-COPY yarn.lock .
+# Copy dependency and config files
+COPY package.json .npmrc ./
 
-# Installer les dépendances en utilisant Yarn
-RUN yarn install --verbose
+# Fresh install with hoisted node_modules (no lockfile = resolves for linux)
+RUN pnpm install --no-frozen-lockfile
 
-# Copier le reste des fichiers de l'application dans le répertoire de travail
 COPY . .
 
-# Exposer le port sur lequel Strapi sera accessible
+RUN pnpm build
+
 EXPOSE 1338
 
-# Démarrer l'application Strapi
-CMD ["yarn", "start"]
+CMD ["pnpm", "start"]

@@ -1,9 +1,8 @@
 module.exports = {
   routes: [
     {
-      // Path defined with a URL parameter
       method: "GET",
-      path: "/i18n/:lng",
+      path: "/translations/:lng",
       handler: "i18n.getLangTranslations",
     },
   ],

@@ -12,6 +12,7 @@ module.exports = {
               locale: ctx.params.lng,
             },
           },
+          // @ts-ignore
           ["key", "text"]
         );
 
