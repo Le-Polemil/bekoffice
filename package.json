@@ -40,7 +40,10 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "sharp"
-    ]
+    ],
+    "overrides": {
+      "@types/minimatch": "5.1.2"
+    }
   },
   "license": "MIT"
 }
